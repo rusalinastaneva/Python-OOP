@@ -1,4 +1,4 @@
-from restaurant.food.dessert import Dessert
+from project.food.dessert import Dessert
 
 
 class Cake(Dessert):

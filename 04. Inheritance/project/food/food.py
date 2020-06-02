@@ -1,4 +1,4 @@
-from restaurant.product import Product
+from project.product import Product
 
 
 class Food(Product):
@@ -7,5 +7,5 @@ class Food(Product):
         self.grams = grams
 
 
-    def get_grams(self):
+    def grams(self):
         return self.grams

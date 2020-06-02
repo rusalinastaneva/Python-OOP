@@ -1,4 +1,4 @@
-from restaurant.food.food import Food
+from project.food.food import Food
 
 
 class Dessert(Food):
@@ -7,6 +7,6 @@ class Dessert(Food):
         self.calories = calories
 
 
-    def get_calories(self):
+    def calories(self):
         return self.calories
 
